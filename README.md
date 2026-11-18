@@ -2,8 +2,9 @@
 
 Implementação do exemplo **[Thinking in React](https://react.dev/learn/thinking-in-react)** da documentação oficial do React: uma tabela de produtos com busca por nome e filtro "apenas em estoque".
 
-- **Aplicação (Vercel):** _cole aqui o link_
-- **Código (GitHub):** _cole aqui o link_
+- **Aplicação (Vercel):** https://produtos-web-mg.vercel.app
+- **Código (GitHub):** https://github.com/marcosgabrielms/produtos-web-mg
+- **API (Render):** https://produtos-web-mg.onrender.com/api/products
 
 **Tecnologias:** Vite · React · TypeScript · CSS Modules · (extra) API REST com Express + Docker
 
