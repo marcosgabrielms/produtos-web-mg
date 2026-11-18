@@ -1,0 +1,17 @@
+.row td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.row:hover {
+  background: var(--row-hover);
+}
+
+.price {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.outOfStock {
+  color: var(--danger);
+}
