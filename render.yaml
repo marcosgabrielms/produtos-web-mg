@@ -1,0 +1,12 @@
+# Blueprint do Render: cria o backend como Web Service usando o Dockerfile
+services:
+  - type: web
+    name: produtos-web-api
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: CORS_ORIGIN
+        value: "*"
