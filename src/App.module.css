@@ -1,16 +1,32 @@
 .container {
   max-width: 560px;
   margin: 0 auto;
-  padding: 3rem 1rem;
+  padding: 64px 16px 48px;
 }
 
 .header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px;
+  padding: 4px 10px 4px 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .header h1 {
-  margin: 0 0 0.35rem;
-  font-size: 2rem;
+  margin: 0 0 6px;
+  font-size: clamp(32px, 6vw, 44px);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
 }
 
 .header p {
@@ -18,13 +34,18 @@
   color: var(--muted);
 }
 
+.header .eyebrow {
+  margin-bottom: 12px;
+  color: var(--accent-ink);
+}
+
 .status {
   color: var(--muted);
 }
 
 .footer {
-  margin-top: 1rem;
-  font-size: 0.85rem;
+  margin-top: 16px;
+  font-size: 13px;
   color: var(--muted);
   text-align: center;
 }

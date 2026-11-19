@@ -1,9 +1,7 @@
 .category {
   text-align: left;
-  padding: 0.6rem 1rem;
-  background: var(--accent-soft);
-  color: var(--accent);
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  padding: 20px 12px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
 }
