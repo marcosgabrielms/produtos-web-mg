@@ -26,11 +26,9 @@ export default function App() {
   return (
     <main className={styles.container}>
       <header className={styles.header}>
+        <p className={styles.eyebrow}>⚛️ Thinking in React</p>
         <h1>Produtos Web</h1>
-        <p>
-          Implementação do tutorial <em>Thinking in React</em> com Vite, TypeScript e CSS
-          Modules.
-        </p>
+        <p>Busque frutas e verduras pelo nome ou veja só o que tem em estoque.</p>
       </header>
 
       {loading ? (

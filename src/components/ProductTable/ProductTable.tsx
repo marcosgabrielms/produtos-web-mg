@@ -44,7 +44,7 @@ export function ProductTable({ products, filterText, inStockOnly }: ProductTable
         ) : (
           <tr>
             <td colSpan={2} className={styles.empty}>
-              Nenhum produto encontrado.
+              Nenhum produto encontrado para “{filterText.trim()}”.
             </td>
           </tr>
         )}
